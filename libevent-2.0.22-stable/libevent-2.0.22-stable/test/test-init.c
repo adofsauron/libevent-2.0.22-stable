@@ -62,13 +62,6 @@ main(int argc, char **argv)
 {
 	struct event ev0, ev1;
 	int pair[2];
-
-	// if (evutil_socketpair(AF_UNIX, SOCK_STREAM, 0, pair) == -1)
-	// 	return (1);
-
-	/* Initalize the event library */
-	struct event_base *base = event_init();
-
 	
 	if (pipe(pair) == -1) 
 	{
@@ -79,14 +72,17 @@ main(int argc, char **argv)
 		}
 	}
 
+
+	struct event_base *base = event_init();
+
 	event_set(&ev0, pair[0], EV_READ, read_cb, &ev0);
 	event_set(&ev1, pair[1	], EV_WRITE, write_cb, &ev1);
 
-	event_add(&ev0, NULL);
+	
 	event_add(&ev1, NULL);
+	event_add(&ev0, NULL);
 
 	// add_event(pair[1], EV_WRITE, write_cb);
-
 	// add_event(pair[0], EV_READ, read_cb);
 
 
