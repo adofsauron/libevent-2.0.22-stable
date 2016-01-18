@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{f416368f-3872-4050-80dd-eec45d442916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compat">
+      <UniqueIdentifier>{089a7e8d-514b-48a0-af7e-4defee92f388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{20327b77-3f49-4fa4-aebc-e11ecccdbb79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="m4">
+      <UniqueIdentifier>{45d7db32-ab25-4f61-bc68-eb92d8b1a78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample">
+      <UniqueIdentifier>{13fd8512-38c7-446a-a86f-8cebf691972a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{28e4826a-9553-42d9-8b41-631591e48a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WIN32-Code">
+      <UniqueIdentifier>{2e5f53c6-5562-40e7-aa0b-8b018f35ab35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WIN32-Code\event2">
+      <UniqueIdentifier>{66ca1099-1955-4689-b0f5-20a210374409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\event2">
+      <UniqueIdentifier>{c2ce61a8-2fe4-4481-86cb-d98512a00b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compat\sys">
+      <UniqueIdentifier>{f6efe8f2-c6ef-4674-b610-9da5fc5ba09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools">
+      <UniqueIdentifier>{537ea526-b830-4e73-a009-6c85319e9285}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libevent-2.0.22-stable\test\Makefile.am">
+      <Filter>test</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\test\Makefile.in">
+      <Filter>test</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\test\Makefile.nmake">
+      <Filter>test</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\test\regress.rpc">
+      <Filter>test</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\test\rpcgen_wrapper.sh">
+      <Filter>test</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\test\test.sh">
+      <Filter>test</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\m4\ac_backport_259_ssizet.m4">
+      <Filter>m4</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\m4\acx_pthread.m4">
+      <Filter>m4</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\m4\libtool.m4">
+      <Filter>m4</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\m4\lt~obsolete.m4">
+      <Filter>m4</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\m4\ltoptions.m4">
+      <Filter>m4</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\m4\ltsugar.m4">
+      <Filter>m4</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\m4\ltversion.m4">
+      <Filter>m4</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\include\Makefile.am">
+      <Filter>include</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\include\Makefile.in">
+      <Filter>include</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\sample\Makefile.am">
+      <Filter>sample</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\sample\Makefile.in">
+      <Filter>sample</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\autogen.sh">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\aclocal.m4">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\ChangeLog">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\compile">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\config.guess">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\config.h.in">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\config.sub">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\configure">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\configure.ac">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\Doxyfile">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\event_rpcgen.py">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\install-sh">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\libevent.pc.in">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\libevent_openssl.pc.in">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\libevent_pthreads.pc.in">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\LICENSE">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\ltmain.sh">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\make-event-config.sed">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\Makefile.am">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\Makefile.in">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\Makefile.nmake">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\missing">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\README">
+      <Filter>src\tools</Filter>
+    </None>
+    <None Include="libevent-2.0.22-stable\depcomp">
+      <Filter>src\tools</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libevent-2.0.22-stable\arc4random.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\buffer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\buffer_iocp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\bufferevent.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\bufferevent_async.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\bufferevent_filter.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\bufferevent_openssl.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\bufferevent_pair.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\bufferevent_ratelim.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\bufferevent_sock.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\devpoll.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\epoll.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\epoll_sub.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\evdns.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\event.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\event_iocp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\event_tagging.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\evmap.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\evport.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\evrpc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\evthread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\evthread_pthread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\evthread_win32.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\evutil.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\evutil_rand.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\http.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\kqueue.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\listener.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\log.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\poll.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\select.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\signal.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\strlcpy.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\win32select.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\bench.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\bench_cascade.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\bench_http.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\bench_httpclient.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress.gen.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_buffer.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_bufferevent.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_dns.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_et.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_http.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_iocp.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_listener.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_main.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_minheap.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_rpc.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_ssl.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_testutils.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_thread.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_util.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\regress_zlib.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\test-changelist.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\test-eof.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\test-init.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\test-ratelim.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\test-time.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\test-weof.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\test\tinytest.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\sample\dns-example.c">
+      <Filter>sample</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\sample\event-test.c">
+      <Filter>sample</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\sample\hello-world.c">
+      <Filter>sample</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\sample\http-server.c">
+      <Filter>sample</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\sample\le-proxy.c">
+      <Filter>sample</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\sample\signal-test.c">
+      <Filter>sample</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-2.0.22-stable\sample\time-test.c">
+      <Filter>sample</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libevent-2.0.22-stable\bufferevent-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\changelist-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\defer-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\evbuffer-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\evdns.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\event.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\event-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\evhttp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\evmap-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\evrpc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\evrpc-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\evsignal-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\evthread-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\evutil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\ht-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\http-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\iocp-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\ipv6-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\log-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\minheap-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\mm-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\ratelim-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\strlcpy-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\util-internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\WIN32-Code\tree.h">
+      <Filter>WIN32-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\WIN32-Code\event2\event-config.h">
+      <Filter>WIN32-Code\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\test\regress.gen.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\test\regress.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\test\regress_testutils.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\test\tinytest.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\test\tinytest_local.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\test\tinytest_macros.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\buffer.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\buffer_compat.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\bufferevent.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\bufferevent_compat.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\bufferevent_ssl.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\bufferevent_struct.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\dns.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\dns_compat.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\dns_struct.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\event.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\event_compat.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\event_struct.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\http.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\http_compat.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\http_struct.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\keyvalq_struct.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\listener.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\rpc.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\rpc_compat.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\rpc_struct.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\tag.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\tag_compat.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\thread.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\include\event2\util.h">
+      <Filter>include\event2</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-2.0.22-stable\compat\sys\queue.h">
+      <Filter>compat\sys</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="libevent-2.0.22-stable\whatsnew-2.0.txt">
+      <Filter>src\tools</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
