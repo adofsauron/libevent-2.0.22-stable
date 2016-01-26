@@ -46,6 +46,7 @@
     <None Include="libevent-2.0.22-stable\README" />
     <None Include="libevent-2.0.22-stable\sample\Makefile.am" />
     <None Include="libevent-2.0.22-stable\sample\Makefile.in" />
+    <None Include="libevent-2.0.22-stable\test\Makefile" />
     <None Include="libevent-2.0.22-stable\test\Makefile.am" />
     <None Include="libevent-2.0.22-stable\test\Makefile.in" />
     <None Include="libevent-2.0.22-stable\test\Makefile.nmake" />
@@ -214,7 +215,10 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\users\adofs\documents\visual studio 2013\Projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\include;D:\users\adofs\documents\visual studio 2013\Projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\WIN32-Code;D:\users\adofs\documents\visual studio 2013\Projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\compat;D:\users\adofs\documents\visual studio 2013\Projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable;$(IncludePath)</IncludePath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>

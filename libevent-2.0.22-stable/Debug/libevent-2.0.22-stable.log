@@ -1,0 +1,192 @@
+﻿  regress_zlib.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\regress_zlib.c(80): fatal error C1083: 无法打开包括文件: “zlib.h”: No such file or directory
+  regress_testutils.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\regress_testutils.c(106): error C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+  regress_ssl.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\regress_ssl.c(48): fatal error C1083: 无法打开包括文件: “openssl/ssl.h”: No such file or directory
+  regress_main.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\regress_main.c(411): error C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(462) : 参见“getenv”的声明
+  regress_http.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\regress_http.c(716): error C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+  regress_et.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\regress_et.c(101): error C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+  regress_dns.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\regress_dns.c(126): error C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+          c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868) : 参见“inet_ntoa”的声明
+  regress_bufferevent.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\regress_bufferevent.c(519): error C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+  regress.gen.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\regress.gen.c(114): error C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+  regress.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\regress.c(137): error C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+  bench_cascade.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench_cascade.c(129): warning C4013: “close”未定义；假设外部返回 int
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench_cascade.c(149): warning C4013: “getopt”未定义；假设外部返回 int
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench_cascade.c(152): error C2065: “optarg”: 未声明的标识符
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench_cascade.c(152): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench_cascade.c(152): warning C4024: “atoi”: 形参和实参 1 的类型不同
+  bench.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench.c(142): warning C4013: “getopt”未定义；假设外部返回 int
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench.c(145): error C2065: “optarg”: 未声明的标识符
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench.c(145): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench.c(145): warning C4024: “atoi”: 形参和实参 1 的类型不同
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench.c(148): error C2065: “optarg”: 未声明的标识符
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench.c(148): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench.c(148): warning C4024: “atoi”: 形参和实参 1 的类型不同
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench.c(151): error C2065: “optarg”: 未声明的标识符
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench.c(151): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\test\bench.c(151): warning C4024: “atoi”: 形参和实参 1 的类型不同
+  select.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\select.c(43): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory
+  le-proxy.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\sample\le-proxy.c(28): fatal error C1083: 无法打开包括文件: “openssl/ssl.h”: No such file or directory
+  http-server.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\sample\http-server.c(277): error C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(237) : 参见“_open”的声明
+  hello-world.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\sample\hello-world.c(125): error C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+  poll.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\poll.c(36): fatal error C1083: 无法打开包括文件: “poll.h”: No such file or directory
+  log.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\log.c(90): error C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+  kqueue.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\kqueue.c(38): fatal error C1083: 无法打开包括文件: “sys/event.h”: No such file or directory
+  http.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\http.c(505): error C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(99) : 参见“gmtime”的声明
+  正在生成代码...
+  正在编译...
+  evutil.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\evutil.c(101): error C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(237) : 参见“_open”的声明
+  evthread_pthread.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\evthread_pthread.c(30): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+  evport.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\evport.c(58): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory
+  evdns.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\evdns.c(3765): error C4996: 'GetVersion': 被声明为已否决
+          c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110) : 参见“GetVersion”的声明
+  epoll_sub.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\epoll_sub.c(29): fatal error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory
+  epoll.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\epoll.c(31): fatal error C1083: 无法打开包括文件: “sys/resource.h”: No such file or directory
+  devpoll.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\devpoll.c(30): fatal error C1083: 无法打开包括文件: “sys/resource.h”: No such file or directory
+  bufferevent_openssl.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\bufferevent_openssl.c(60): fatal error C1083: 无法打开包括文件: “openssl/bio.h”: No such file or directory
+  buffer.c
+d:\users\adofs\documents\visual studio 2013\projects\libevent-2.0.22-stable\libevent-2.0.22-stable\libevent-2.0.22-stable\buffer.c(2245): error C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+          d:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(337) : 参见“read”的声明
+  arc4random.c
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(323): error C2061: 语法错误: 标识符“HCRYPTPROV”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(323): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(324): error C2061: 语法错误: 标识符“HCRYPTKEY”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(324): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(325): error C2061: 语法错误: 标识符“HCRYPTHASH”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(325): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(841): error C2016: C 要求一个结构或联合至少有一个成员
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(841): error C2061: 语法错误: 标识符“DWORD”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(843): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(844): error C2061: 语法错误: 标识符“cbOID”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(844): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(845): error C2059: 语法错误:“}”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(850): error C2061: 语法错误: 标识符“BYTE”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(851): error C2061: 语法错误: 标识符“cbInnerString”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(851): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(852): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(853): error C2061: 语法错误: 标识符“cbOuterString”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(853): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(854): error C2059: 语法错误:“}”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(858): error C2016: C 要求一个结构或联合至少有一个成员
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(858): error C2061: 语法错误: 标识符“DWORD”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(860): error C2061: 语法错误: 标识符“cBits”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(860): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(861): error C2061: 语法错误: 标识符“dwFlags”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(861): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(862): error C2061: 语法错误: 标识符“dwReserved”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(862): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(863): error C2059: 语法错误:“}”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(874): error C2061: 语法错误: 标识符“DWORD”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(875): error C2061: 语法错误: 标识符“dwNameLen”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(875): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(876): error C2061: 语法错误: 标识符“szName”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(876): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(876): error C3409: 不允许空特性块
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(876): error C2143: 语法错误 : 缺少“]”(在“常量”的前面)
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(877): error C2059: 语法错误:“}”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(882): error C2061: 语法错误: 标识符“DWORD”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(883): error C2061: 语法错误: 标识符“dwMinLen”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(883): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(884): error C2061: 语法错误: 标识符“dwMaxLen”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(884): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(885): error C2061: 语法错误: 标识符“dwProtocols”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(885): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(886): error C2061: 语法错误: 标识符“dwNameLen”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(886): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(887): error C2061: 语法错误: 标识符“szName”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(887): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(887): error C3409: 不允许空特性块
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(887): error C2143: 语法错误 : 缺少“]”(在“常量”的前面)
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(888): error C2061: 语法错误: 标识符“dwLongNameLen”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(888): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(889): error C2061: 语法错误: 标识符“szLongName”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(889): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(889): error C3409: 不允许空特性块
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(889): error C2143: 语法错误 : 缺少“]”(在“常量”的前面)
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(890): error C2059: 语法错误:“}”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(894): error C2016: C 要求一个结构或联合至少有一个成员
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(894): error C2061: 语法错误: 标识符“BYTE”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(895): error C2061: 语法错误: 标识符“bVersion”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(895): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(896): error C2061: 语法错误: 标识符“reserved”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(896): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(898): error C2059: 语法错误:“}”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(901): error C2016: C 要求一个结构或联合至少有一个成员
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(901): error C2061: 语法错误: 标识符“DWORD”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(902): error C2061: 语法错误: 标识符“bitlen”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(902): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(903): error C2061: 语法错误: 标识符“pubexp”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(903): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(905): error C2059: 语法错误:“}”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(908): error C2016: C 要求一个结构或联合至少有一个成员
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(908): error C2061: 语法错误: 标识符“DWORD”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(909): error C2061: 语法错误: 标识符“bitlen”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(909): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(910): error C2059: 语法错误:“}”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(913): error C2016: C 要求一个结构或联合至少有一个成员
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(913): error C2061: 语法错误: 标识符“DWORD”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(914): error C2061: 语法错误: 标识符“seed”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(914): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(914): error C3409: 不允许空特性块
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(914): error C2143: 语法错误 : 缺少“]”(在“常量”的前面)
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(915): error C2059: 语法错误:“}”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(918): error C2016: C 要求一个结构或联合至少有一个成员
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(918): error C2061: 语法错误: 标识符“DWORD”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(919): error C2061: 语法错误: 标识符“bitlenP”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(919): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(920): error C2061: 语法错误: 标识符“bitlenQ”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(920): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(921): error C2061: 语法错误: 标识符“bitlenJ”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(921): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(922): error C2061: 语法错误: 标识符“DSSSeed”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(922): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(923): error C2059: 语法错误:“}”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(926): error C2016: C 要求一个结构或联合至少有一个成员
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(926): error C2061: 语法错误: 标识符“DWORD”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(927): error C2061: 语法错误: 标识符“bitlenP”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(927): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(928): error C2061: 语法错误: 标识符“bitlenQ”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(928): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(929): error C2061: 语法错误: 标识符“bitlenJ”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(929): error C2059: 语法错误:“;”
+c:\program files (x86)\windows kits\8.1\include\um\wincrypt.h(929): fatal error C1003: 错误计数超过 100；正在停止编译
+  正在生成代码...

@@ -9,7 +9,12 @@
 
 #include <sys/types.h>
 #include <sys/stat.h>
+
+# ifndef WIN32
 #include <sys/time.h>
+#include <unistd.h>
+# endif
+
 #ifdef _EVENT_HAVE_SYS_SOCKET_H
 #include <sys/socket.h>
 #endif
@@ -17,7 +22,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <unistd.h>
 #include <errno.h>
 
 #include <event.h>
@@ -30,21 +34,47 @@ write_cb(int fd, short event, void *arg)
 
 	len = write(fd, test, strlen(test) + 1);
 
-	printf("%s %s %d: write %d -> %s\n",__FILE__, __func__,__LINE__,
+	printf("%s  %d: write %d -> %s\n",__FILE__,__LINE__,
 		 len, test);
 
 }
 
  static void
+write_cb2(int fd, short event, void *arg)
+ {
+	 const char *test = "test call back 2";
+	 int len;
+
+	 len = write(fd, test, strlen(test) + 1);
+
+	 printf("%s %d: write %d -> %s\n", __FILE__, __LINE__,
+		 len, test);
+
+ }
+
+ static void
+ write_cb3(int fd, short event, void *arg)
+ {
+	 const char *test = "test call back 3";
+	 int len;
+
+	 len = write(fd, test, strlen(test) + 1);
+
+	 printf("%s %d: write %d -> %s\n", __FILE__, __LINE__,
+		 len, test);
+
+ }
+
+ static void
 read_cb(int fd, short event, void *arg)
 {
 	const int length = 256;
-	char test[length] ;
+	char test[256] ;
 	int len;
 
 	len = read(fd, test, length);
 
-	printf("%s %s %d: read %d -> %s\n",__FILE__, __func__,__LINE__,
+	printf("%s %d: read %d -> %s\n",__FILE__,__LINE__,
 		 len, test);
 
 }
@@ -60,7 +90,7 @@ read_cb(int fd, short event, void *arg)
 int
 main(int argc, char **argv)
 {
-	struct event ev0, ev1;
+	struct event ev0, ev1, ev2, ev3;
 	int pair[2];
 	
 	if (pipe(pair) == -1) 
@@ -76,11 +106,15 @@ main(int argc, char **argv)
 	struct event_base *base = event_init();
 
 	event_set(&ev0, pair[0], EV_READ, read_cb, &ev0);
-	event_set(&ev1, pair[1	], EV_WRITE, write_cb, &ev1);
+	event_set(&ev1, pair[1], EV_WRITE, write_cb, &ev1);
+	event_set(&ev2, pair[1], EV_WRITE, write_cb2, &ev2);
+	event_set(&ev3, pair[1], EV_WRITE, write_cb3, &ev3);
 
-	
-	event_add(&ev1, NULL);
 	event_add(&ev0, NULL);
+	event_add(&ev1, NULL);
+	event_add(&ev2, NULL);
+	event_add(&ev3, NULL);
+
 
 	// add_event(pair[1], EV_WRITE, write_cb);
 	// add_event(pair[0], EV_READ, read_cb);

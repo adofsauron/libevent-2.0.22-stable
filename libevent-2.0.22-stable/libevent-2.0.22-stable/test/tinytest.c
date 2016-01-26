@@ -23,6 +23,17 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+# if defined(_MSC_VER)
+# ifndef _CRT_SECURE_NO_DEPRECATE
+# define _CRT_SECURE_NO_DEPRECATE (1)
+# endif
+# ifndef _CRT_NONSTDC_NO_DEPRECATE
+# define _CRT_NONSTDC_NO_DEPRECATE (1)
+# endif
+# pragma warning(disable : 4996)
+# endif
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -167,6 +167,9 @@
     <None Include="libevent-2.0.22-stable\depcomp">
       <Filter>src\tools</Filter>
     </None>
+    <None Include="libevent-2.0.22-stable\test\Makefile">
+      <Filter>test</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="libevent-2.0.22-stable\arc4random.c">
